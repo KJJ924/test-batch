@@ -19,7 +19,7 @@ public class SimpleJobConfiguration {
     private final JobBuilderFactory jobBuilderFactory;
     private final StepBuilderFactory stepBuilderFactory;
 
-
+    //asd
     @Bean
     public Job simpleJob() {
         return jobBuilderFactory.get("simpleJob")
