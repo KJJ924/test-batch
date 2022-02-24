@@ -28,7 +28,6 @@ public class SimpleJobConfiguration {
     }
 
     @Bean
-    //TODO: ??
     public Step simpleStep1() {
         return stepBuilderFactory.get("simpleStep1")
                 .tasklet((contribution, chunkContext) -> {
@@ -38,5 +37,4 @@ public class SimpleJobConfiguration {
                 .build();
 
     }
-
 }
