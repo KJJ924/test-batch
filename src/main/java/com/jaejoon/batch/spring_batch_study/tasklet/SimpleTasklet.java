@@ -12,6 +12,7 @@ public class SimpleTasklet implements Tasklet {
     @Override
     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext)
         throws Exception {
+        System.out.println("simpleTasklet start");
         log.info("simpleTasklet start");
         return RepeatStatus.FINISHED;
     }
